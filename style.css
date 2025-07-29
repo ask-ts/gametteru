@@ -1,0 +1,11 @@
+.card-profile{
+    width: 18rem;
+}
+
+.card-friend{
+    transition: transform 0.3s;
+}
+
+.card-friend:hover{
+    transform: translate(0, -5px);
+}
