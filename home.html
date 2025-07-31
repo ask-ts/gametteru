@@ -5,56 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ホーム画面</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="d-flex justify-content-center mb-3">
         <h1>ホーム画面</h1>
     </div>
     <div class="d-flex">
-        <div class="card card-profile m-3">
-            <div class="card-body">
-                <img src="https://ui-avatars.com/api/?name=Jhon+Takashi&background=0D8ABC&color=fff" width="100px" class="card-img-top mb-3">
-                <h5 class="card-title text-center">ユーザーネーム</h5>
-                <p>プロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィール</p>
-                <div class="d-flex justify-content-center">
-                    <a href="#" class="btn btn-primary w-75">プロフィール編集</a>
+        <div class="card-profile-area">
+            <div class="card m-3">
+                <div class="card-body">
+                    <img src="https://ui-avatars.com/api/?name=Jhon+Takashi&background=0D8ABC&color=fff" width="100px" class="mb-3">
+                    <div class="d-flex card-title justify-content-between align-items-center">
+                        <h5 class="m-0">ユーザーネーム</h5>
+                        <a href="#" class="btn btn-primary">プロフィール編集</a>
+                    </div>
+                    <p>プロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィール</p>
                 </div>
             </div>
         </div>
         <div class="flex-grow-1 m-3">
-            <form>
-                <div class="input-group">
-                    <input type="text" class="form-control" id="search" placeholder="キーワードを入力してください...">
-                    <button type="submit" class="btn btn-primary">
-                        <i class="bi bi-search"></i>
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
-    <div class="card card-profile m-3">
-            <div class="card-body">
-                <h5 class="card-title">フレンドリスト</h5>
-                <div class="card card-friend">
-                    <div class="card-body">
-                        <p>フレンド1</p>
+            <div class="card mx-3">
+                <div class="card-body">
+                    <div class="d-flex card-title align-items-center">
+                        <h5 class="m-0">フレンドリスト</h5>
+                        <div class="flex-grow-1 ms-3">
+                            <form>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="search" placeholder="キーワードを入力してください...">
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="bi bi-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                </div>
-                <div class="card card-friend">
-                    <div class="card-body">
-                        <p>フレンド2</p>
-                    </div>
-                </div>
-                <div class="card card-friend">
-                    <div class="card-body">
-                        <p>フレンド3</p>
-                    </div>
+                    <div class="friend-area">
+                        <div class="card card-friend">
+                            <div class="card-body">
+                                <p>フレンド1</p>
+                            </div>
+                        </div>
+                        <div class="card card-friend">
+                            <div class="card-body">
+                                <p>フレンド2</p>
+                            </div>
+                        </div>
+                        <div class="card card-friend">
+                            <div class="card-body">
+                                <p>フレンド3</p>
+                            </div>
+                        </div>
+                        <div class="card card-friend">
+                            <div class="card-body">
+                                <p>フレンド4</p>
+                            </div>
+                        </div>
+                        <div class="card card-friend">
+                            <div class="card-body">
+                                <p>フレンド5</p>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
             </div>
         </div>
+    </div>
     <div class="d-flex justify-content-center">
         <a href="index.html">ログイン画面に戻る</a>
     </div>
